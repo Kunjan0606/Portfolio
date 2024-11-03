@@ -167,7 +167,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/newbanner.webp") no-repeat;
+    background: url("images/banner.jpg") no-repeat;
     height: 100vh;
     color: #f40c0c;
     min-height: 500px;
@@ -184,20 +184,20 @@ section .title::after{
 }
 .home .home-content .text-1{
     font-size: 30px;
-    color:black;
+    color:whitesmoke;
 }
 .home .home-content .text-2{
-    color:black;
+    color:whitesmoke;
     font-size: 75px;
     font-weight: 500;
 }
 .home .home-content .text-3{
-    color:black;
+    color:whitesmoke;
     font-size: 40px;
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: black;
     font-weight: 500;
 }
 
