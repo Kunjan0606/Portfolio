@@ -36,15 +36,15 @@ $(document).ready(function(){
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Mechanical Designer", "Product Lifecycle Management (PLM) Consultant", "Automotive Quality Expert"],
-        typeSpeed: 40,
-        backSpeed: 60,
+        typeSpeed: 30,
+        backSpeed: 30,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Mechanical Designer", "Product Lifecycle Management (PLM) Consultant", "Automotive Quality Expert"],
-        typeSpeed: 40,
-        backSpeed: 60,
+        strings: ["Mechanical Design Engineer", "Product Lifecycle Management (PLM) Consultant", "Automotive Quality Expert"],
+        typeSpeed: 30,
+        backSpeed: 30,
         loop: true
     });
 
