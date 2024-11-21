@@ -283,6 +283,35 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
+/* Add these styles to your CSS file or inside a <style> tag */
+.services .max-width {
+    max-width: 2000px; /* Limit the maximum width of the section */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+.services .serv-content {
+    display: flex; /* Use flexbox for better alignment */
+    flex-wrap: wrap; /* Allow wrapping for responsive design */
+    justify-content: center; /* Center all cards horizontally */
+    gap: 20px; /* Add spacing between the cards */
+}
+
+.services .card {
+    flex: 1 1 calc(33.333% - 40px); /* Allow cards to be flexible */
+    max-width: calc(33.333% - 40px); /* Set a max width for cards */
+    box-sizing: border-box; /* Ensure padding does not affect width */
+    min-width: 250px; /* Ensure cards don’t shrink too much */
+}
+
+/* Optional: Style adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .services .card {
+        flex: 1 1 100%; /* Make each card full-width on smaller screens */
+    }
+}
+
+
 /* skills section styling */
 
 
