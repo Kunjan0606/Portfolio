@@ -77,6 +77,33 @@ section .title::after{
 }
 
 /* navbar styling */
+
+/* Navbar Styles */
+.navbar {
+    background: #333; /* Background color */
+    color: #fff; /* Text color */
+    position: fixed; /* Fix the navigation bar at the top */
+    top: 0; /* Stick it to the top */
+    width: 100%; /* Make it span the entire width */
+    z-index: 1000; /* Ensure it stays above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: add a shadow */
+    padding: 10px 0; /* Adjust spacing */
+}
+
+.navbar .max-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1615px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Add a margin to the content below the navbar to prevent overlap */
+body {
+    padding-top: 60px; /* Adjust based on the height of your navbar */
+}
+
 .navbar{
     position: sticky;
     background-color: black;
@@ -116,7 +143,7 @@ section .title::after{
 .navbar .menu li a{
     display: block;
     color: white;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: 500;
     margin-left: 25px;
     transition: all 0.3s ease-out;
@@ -197,7 +224,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: white;
+    color: crimson;
     font-weight: 500;
 }
 
@@ -403,7 +430,7 @@ section .title::after{
 
 /* contact section styling */
 .contact {
-    background-color: rgb(152, 210, 236);
+    background-color: rgb(249, 249, 249);
 }
 .symbol {
     padding: 1.5%;
